@@ -144,7 +144,7 @@ namespace API
 
             app.UseCors(opt =>
             {
-                opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("https://restorevn.herokuapp.com/");
+                opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("https://restorevn.herokuapp.com");
             });
 
             app.UseAuthentication();
