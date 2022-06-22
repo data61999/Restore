@@ -1,0 +1,742 @@
+﻿++Solution 'restore_v3' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:restore_v3.sln
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>347
+++No service dependencies discovered
+++Dependencies
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>346
+++Analyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:analyzers
+++Frameworks
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:frameworks
+++Packages
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:packages
+++Properties
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\properties\
+++launchSettings.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\properties\launchsettings.json
+++Controllers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\
+++AccountController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\accountcontroller.cs
+++BasketController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\basketcontroller.cs
+++BuggyController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\buggycontroller.cs
+++OrdersController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\orderscontroller.cs
+++ProductsController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\productscontroller.cs
+++WeatherForecastController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\weatherforecastcontroller.cs
+++Data
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\data\
+++DbInitializer.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\data\dbinitializer.cs
+++StoreContext.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\data\storecontext.cs
+++DTOs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\
+++BasketDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\basketdto.cs
+++BasketItemDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\basketitemdto.cs
+++CreateOrderDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\createorderdto.cs
+++LoginDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\logindto.cs
+++OrderDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\orderdto.cs
+++OrderItemDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\orderitemdto.cs
+++RegisterDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\registerdto.cs
+++UserDto.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\dtos\userdto.cs
+++Entities
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\
+++OderAggregate
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\oderaggregate\
+++Address.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\address.cs
+++Basket.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\basket.cs
+++BasketItem.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\basketitem.cs
+++Product.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\product.cs
+++Role.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\role.cs
+++User.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\user.cs
+++UserAddress.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\useraddress.cs
+++Extensions
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\extensions\
+++BasketExtensions.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\extensions\basketextensions.cs
+++HttpExtensions.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\extensions\httpextensions.cs
+++OrderExtensions.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\extensions\orderextensions.cs
+++ProductExtension.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\extensions\productextension.cs
+++Middleware
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\middleware\
+++Migrations
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\migrations\
+++RequestHelper
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\requesthelper\
+++Services
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\services\
+++.gitignore
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\.gitignore
+++appsettings.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\appsettings.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\appsettings.json
+++Program.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\program.cs
+++Startup.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\startup.cs
+++WeatherForecast.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\weatherforecast.cs
+++Microsoft.AspNetCore.Analyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\users\datvn\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.16)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>364
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.16)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>363
+++Microsoft.EntityFrameworkCore.Design (5.0.16)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>361
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.16)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>360
+++Microsoft.EntityFrameworkCore.Tools (5.0.16)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>365
+++Swashbuckle.AspNetCore (5.6.3)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>362
+++Order.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\oderaggregate\order.cs
+++OrderItem.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\oderaggregate\orderitem.cs
+++OrderStatus.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\oderaggregate\orderstatus.cs
+++ProductItemOrdered.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\oderaggregate\productitemordered.cs
+++ShippingAddress.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\entities\oderaggregate\shippingaddress.cs
+++ExceptionMiddleware.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\middleware\exceptionmiddleware.cs
+++20220607062743_OrderIdentityAdded.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\migrations\20220607062743_orderidentityadded.cs
+++StoreContextModelSnapshot.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\migrations\storecontextmodelsnapshot.cs
+++MetaData.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\requesthelper\metadata.cs
+++PagedList.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\requesthelper\pagedlist.cs
+++PaginationParams.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\requesthelper\paginationparams.cs
+++ProductParams.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\requesthelper\productparams.cs
+++TokenService.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\services\tokenservice.cs
+++appsettings.Development.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\appsettings.development.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\appsettings.development.json
+++20220607062743_OrderIdentityAdded.Designer.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\migrations\20220607062743_orderidentityadded.designer.cs
+++Microsoft identity platform
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>368
+++Microsoft identity platform dependency is detected
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>369
+++SQL Server Database
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>366
+++SQL Server Database dependency is detected
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>367
+++FallbackController.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\controllers\fallbackcontroller.cs
+++bin
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\
+++Debug
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\
+++Release
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\release\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\
+++net5.0
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\release\net5.0\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\
+++ref
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\ref\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\release\net5.0\ref\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\ref\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\ref\
+++runtimes
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\
+++API.deps.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\api.deps.json
+++API.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\api.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\ref\api.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\ref\api.dll
+++API.exe
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\api.exe
+++API.pdb
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\api.pdb
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.pdb
+++API.runtimeconfig.dev.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\api.runtimeconfig.dev.json
+++API.runtimeconfig.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\api.runtimeconfig.json
+++Humanizer.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\humanizer.dll
+++Microsoft.AspNetCore.Authentication.JwtBearer.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.aspnetcore.authentication.jwtbearer.dll
+++Microsoft.AspNetCore.Cryptography.Internal.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.aspnetcore.cryptography.internal.dll
+++Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.aspnetcore.cryptography.keyderivation.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.aspnetcore.identity.entityframeworkcore.dll
+++Microsoft.Data.SqlClient.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.data.sqlclient.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.entityframeworkcore.sqlserver.dll
+++Microsoft.Extensions.DependencyInjection.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.extensions.dependencyinjection.dll
+++Microsoft.Extensions.Identity.Core.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.extensions.identity.core.dll
+++Microsoft.Extensions.Identity.Stores.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.extensions.identity.stores.dll
+++Microsoft.Identity.Client.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.identity.client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.identitymodel.tokens.dll
+++Microsoft.OpenApi.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\microsoft.openapi.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\swashbuckle.aspnetcore.swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\swashbuckle.aspnetcore.swaggergen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\swashbuckle.aspnetcore.swaggerui.dll
+++System.Configuration.ConfigurationManager.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\system.configuration.configurationmanager.dll
+++System.Diagnostics.DiagnosticSource.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\system.diagnostics.diagnosticsource.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\system.identitymodel.tokens.jwt.dll
+++System.Runtime.Caching.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\system.runtime.caching.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\system.security.cryptography.protecteddata.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+++unix
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\unix\
+++win
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\
+++win-arm
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm\
+++win-arm64
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm64\
+++win-x64
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x64\
+++win-x86
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x86\
+++lib
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\unix\lib\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\lib\
+++native
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm\native\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm64\native\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x64\native\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x86\native\
+++netcoreapp3.1
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\unix\lib\netcoreapp3.1\
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++Microsoft.Data.SqlClient.SNI.pdb
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.pdb
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.pdb
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.pdb
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\bin\debug\net5.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.pdb
+++obj
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\
+++API.csproj.nuget.dgspec.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\api.csproj.nuget.dgspec.json
+++API.csproj.nuget.g.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\api.csproj.nuget.g.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\api.csproj.nuget.g.props
+++API.csproj.nuget.g.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\api.csproj.nuget.g.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\api.csproj.nuget.g.targets
+++project.assets.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\project.assets.json
+++project.nuget.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\project.nuget.cache
+++staticwebassets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\staticwebassets\
+++.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
+++API.AssemblyInfo.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.assemblyinfo.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\api.assemblyinfo.cs
+++API.AssemblyInfoInputs.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.assemblyinfoinputs.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\api.assemblyinfoinputs.cache
+++API.assets.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.assets.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\api.assets.cache
+++API.csproj.AssemblyReference.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.csproj.assemblyreference.cache
+++API.csproj.CopyComplete
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.csproj.copycomplete
+++API.csproj.CoreCompileInputs.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.csproj.corecompileinputs.cache
+++API.csproj.FileListAbsolute.txt
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.csproj.filelistabsolute.txt
+++API.GeneratedMSBuildEditorConfig.editorconfig
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.generatedmsbuildeditorconfig.editorconfig
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\release\net5.0\api.generatedmsbuildeditorconfig.editorconfig
+++API.genruntimeconfig.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.genruntimeconfig.cache
+++API.MvcApplicationPartsAssemblyInfo.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.mvcapplicationpartsassemblyinfo.cache
+++API.MvcApplicationPartsAssemblyInfo.cs
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.mvcapplicationpartsassemblyinfo.cs
+++API.RazorTargetAssemblyInfo.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\api.razortargetassemblyinfo.cache
+++apphost.exe
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\apphost.exe
+++API.StaticWebAssets.Manifest.cache
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\obj\debug\net5.0\staticwebassets\api.staticwebassets.manifest.cache
+++Imports
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:>374
+++Sdk.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++Microsoft.Common.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++Microsoft.LiveUnitTesting.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.liveunittesting.props
+++Microsoft.NuGet.ImportBefore.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Compilation.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.compilation.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.Component.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.component.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.5_0.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.5_0.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.5_0.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.5_0.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++Microsoft.Extensions.ApiDescription.Server.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\users\datvn\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.props
+++Swashbuckle.AspNetCore.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\users\datvn\.nuget\packages\swashbuckle.aspnetcore\5.6.3\build\swashbuckle.aspnetcore.props
+++Microsoft.EntityFrameworkCore.Design.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\users\datvn\.nuget\packages\microsoft.entityframeworkcore.design\5.0.16\build\netcoreapp3.0\microsoft.entityframeworkcore.design.props
+++Microsoft.NuGet.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.LiveUnitTesting.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.targets\importbefore\microsoft.liveunittesting.targets
+++API.csproj.user
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\api.csproj.user
+++Microsoft.NET.props
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.QualityTools.Testing.Fakes.ImportAfter.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.targets\importafter\microsoft.qualitytools.testing.fakes.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.Extensions.ApiDescription.Server.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\users\datvn\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.targets
+++Microsoft.Docker.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.QualityTools.Testing.Fakes.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\v17.0\fakes\microsoft.qualitytools.testing.fakes.targets
+++Microsoft.Web.IISSupport.targets
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:c:\program files\microsoft visual studio\2022\enterprise\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++wwwroot
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\
+++images
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\
+++static
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\
+++asset-manifest.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\asset-manifest.json
+++favicon.ico
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\favicon.ico
+++index.html
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\index.html
+++logo192.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\logo192.png
+++logo512.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\logo512.png
+++manifest.json
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\manifest.json
+++robots.txt
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\robots.txt
+++products
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\
+++.DS_Store
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\.ds_store
+++hero1.jpg
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\hero1.jpg
+++hero2.jpg
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\hero2.jpg
+++hero3.jpg
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\hero3.jpg
+++logo.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\logo.png
+++placeholder.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\placeholder.png
+++css
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\css\
+++js
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\
+++boot-ang1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\boot-ang1.png
+++boot-ang2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\boot-ang2.png
+++boot-core1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\boot-core1.png
+++boot-core2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\boot-core2.png
+++boot-redis1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\boot-redis1.png
+++glove-code1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\glove-code1.png
+++glove-code2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\glove-code2.png
+++glove-react1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\glove-react1.png
+++glove-react2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\glove-react2.png
+++hat-core1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\hat-core1.png
+++hat-react1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\hat-react1.png
+++hat-react2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\hat-react2.png
+++sb-ang1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\sb-ang1.png
+++sb-ang2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\sb-ang2.png
+++sb-core1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\sb-core1.png
+++sb-core2.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\sb-core2.png
+++sb-react1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\sb-react1.png
+++sb-ts1.png
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\images\products\sb-ts1.png
+++2.f4c56af9.chunk.css
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\css\2.f4c56af9.chunk.css
+++2.f4c56af9.chunk.css.map
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\css\2.f4c56af9.chunk.css.map
+++2.f35581e0.chunk.js
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\2.f35581e0.chunk.js
+++2.f35581e0.chunk.js.LICENSE.txt
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\2.f35581e0.chunk.js.license.txt
+++2.f35581e0.chunk.js.map
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\2.f35581e0.chunk.js.map
+++3.9936f484.chunk.js
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\3.9936f484.chunk.js
+++3.9936f484.chunk.js.map
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\3.9936f484.chunk.js.map
+++main.7665d383.chunk.js
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\main.7665d383.chunk.js
+++main.7665d383.chunk.js.map
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\main.7665d383.chunk.js.map
+++runtime-main.8591fb11.js
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\runtime-main.8591fb11.js
+++runtime-main.8591fb11.js.map
+i:{0ad04850-fd41-49b3-858b-769c0c0c5a8c}:d:\tuhoc\react_.net\restore_v3\back-end\api\wwwroot\static\js\runtime-main.8591fb11.js.map

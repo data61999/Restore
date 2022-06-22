@@ -1,4 +1,4 @@
-export default interface Product {
+export interface Product {
   id: number;
   name: string;
   description: string;
@@ -7,4 +7,13 @@ export default interface Product {
   type: string;
   brand: string;
   quantityInStock: number;
+}
+
+export interface ProductParams {
+  orderBy: string;
+  searchTerm?: string;
+  brands: string[];
+  types: string[];
+  pageNumber: number;
+  pageSize: number;
 }

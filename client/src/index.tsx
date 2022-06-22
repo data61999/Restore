@@ -1,11 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Router } from 'react-router-dom';
 import App from './app/layout/App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserHistory } from 'history';
+import { Provider } from 'react-redux';
+import { store } from './app/store/configureStore';
+import { fetchProductListAsync } from './features/catalog/catalogSlice';
+
+export const history = createBrowserHistory();
+
+store.dispatch(fetchProductListAsync());
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <BrowserRouter>
+        <Router history={history}>
+          <App />
+        </Router>
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

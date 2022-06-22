@@ -1,3 +1,4 @@
+import { LoadingButton } from '@mui/lab';
 import {
   Avatar,
   Button,
@@ -8,13 +9,19 @@ import {
   CardMedia,
   Typography,
 } from '@mui/material';
-import Product from '../../app/models/Product';
+import { Link } from 'react-router-dom';
+import { Product } from '../../app/models/Product';
+import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
+import { addItemToBasketAsync } from '../basket/basketSlice';
 
 interface Props {
   product: Product;
 }
 
 const ProductItem = ({ product }: Props) => {
+  const { status } = useAppSelector((state) => state.basket);
+  const dispatch = useAppDispatch();
+
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
@@ -45,8 +52,18 @@ const ProductItem = ({ product }: Props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size='small'>Share</Button>
-        <Button size='small'>Learn More</Button>
+        <LoadingButton
+          loading={status === `pendingAddItem${product.id}`}
+          size='small'
+          onClick={() =>
+            dispatch(addItemToBasketAsync({ productId: product.id }))
+          }
+        >
+          Add to cart
+        </LoadingButton>
+        <Button size='small' component={Link} to={`/catalog/${product.id}`}>
+          View
+        </Button>
       </CardActions>
     </Card>
   );
