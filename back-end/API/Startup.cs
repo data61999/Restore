@@ -1,6 +1,7 @@
 using API.Data;
 using API.Entities;
 using API.Middleware;
+using API.RequestHelper;
 using API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -37,6 +38,7 @@ namespace API
         {
 
             services.AddControllers();
+            services.AddAutoMapper(typeof(MapperProfile).Assembly);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
@@ -121,6 +123,7 @@ namespace API
                 });
             services.AddAuthorization();
             services.AddScoped<TokenService>();
+            services.AddScoped<ImageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -144,7 +147,7 @@ namespace API
 
             app.UseCors(opt =>
             {
-                opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("https://restorevn.herokuapp.com");
+                opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
             });
 
             app.UseAuthentication();

@@ -156,8 +156,14 @@ const throttle = (callback, wait) => {
 
 const logThrottle = throttle(() => {
   console.log('hello');
-}, 500);
+}, 1000);
 
 logThrottle();
 logThrottle();
 logThrottle();
+
+setTimeout(() => {
+  logThrottle();
+  logThrottle();
+  logThrottle();
+}, 2000);

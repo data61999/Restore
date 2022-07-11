@@ -49,7 +49,7 @@ const Header = ({ darkMode, handleThemeChange }: Props) => {
     basket?.items.reduce((sum, item) => (sum += item.quantity), 0) || 0;
 
   return (
-    <AppBar position='sticky' sx={{ mb: 4 }}>
+    <AppBar position='static' sx={{ mb: 4 }}>
       <Toolbar
         sx={{
           display: 'flex',
