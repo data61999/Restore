@@ -65,3 +65,8 @@ D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\Microsoft.Extension
 D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\Npgsql.dll
 D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\AutoMapper.dll
+D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\CloudinaryDotNet.dll
+D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+D:\TuHoc\React_.NET\Restore_v3\back-end\API\bin\Debug\net5.0\Newtonsoft.Json.dll
