@@ -7,6 +7,7 @@ import { store } from '../store/configureStore';
 const sleep = () => new Promise((resolve) => setTimeout(resolve, 500));
 
 axios.defaults.baseURL = process.env.REACT_APP_API_URL;
+
 axios.defaults.withCredentials = true;
 
 const requestBody = (response: AxiosResponse) => response.data;
@@ -38,13 +39,15 @@ axios.interceptors.response.use(
               modalStateErrors.push(data.errors[key]);
             }
           }
-
           throw modalStateErrors.flat();
         }
         toast.error(data.title);
         break;
       case 401:
         toast.error(data.title);
+        break;
+      case 403:
+        toast.error('You are not allowed to do');
         break;
       case 404:
         toast.error(data.title);
@@ -69,9 +72,22 @@ const request = {
   post: (url: string, body: {}) => axios.post(url, body).then(requestBody),
   put: (url: string, body: {}) => axios.put(url, body).then(requestBody),
   delete: (url: string) => axios.delete(url).then(requestBody),
+  postForm: (url: string, data: FormData) =>
+    axios
+      .post(url, data, {
+        headers: { 'Content-type': 'multipart/formData' },
+      })
+      .then(requestBody),
+  putForm: (url: string, data: FormData) =>
+    axios
+      .put(url, data, {
+        headers: { 'Content-type': 'multipart/formData' },
+      })
+      .then(requestBody),
 };
 
 const Catalog = {
+  nomalList: () => request.get('Products?OrderBy=priceDesc&PageSize=4'),
   list: (params: URLSearchParams) => request.get('products', params),
   detail: (id: number) => request.get(`products/${id}`),
   filters: () => request.get('products/filters'),
@@ -106,12 +122,31 @@ const Orders = {
   create: (values: any) => request.post('/orders', values),
 };
 
+const createFormData = (item: any) => {
+  let formData = new FormData();
+
+  for (const key in item) {
+    formData.append(key, item[key]);
+  }
+
+  return formData;
+};
+
+const Admin = {
+  createProduct: (data: any) =>
+    request.postForm('/products', createFormData(data)),
+  updateProduct: (data: any) =>
+    request.putForm('/products', createFormData(data)),
+  deleteProduct: (id: number) => request.delete(`/products?id=${id}`),
+};
+
 const agent = {
   Catalog,
   TestError,
   Basket,
   Account,
   Orders,
+  Admin,
 };
 
 export default agent;

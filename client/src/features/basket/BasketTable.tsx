@@ -8,6 +8,7 @@ import {
   TableRow,
   TableCell,
   TableBody,
+  Box,
 } from '@mui/material';
 import { BasketItem } from '../../app/models/Basket';
 import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
@@ -42,7 +43,19 @@ const BasketTable = ({ items, isBasket = true }: Props) => {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component='th' scope='row'>
-                {item.name}
+                <Box display='flex' alignItems='center'>
+                  <img
+                    src={item.pictureUrl}
+                    alt={item.name}
+                    style={{
+                      objectFit: 'contain',
+                      height: 50,
+                      marginRight: 20,
+                      minWidth: 100,
+                    }}
+                  />
+                  {item.name}
+                </Box>
               </TableCell>
 
               <TableCell align='right'>

@@ -14,7 +14,7 @@ const OrderDetail = ({ order, setSelectedOrder }: Props) => {
     <>
       <Box display='flex' justifyContent='space-between'>
         <Typography sx={{ p: 2 }} gutterBottom variant='h4'>
-          Order#{order.id} - {order.orderStatus}
+          Order #{order.id} - {order.orderStatus}
         </Typography>
         <Button
           onClick={() => setSelectedOrder(0)}

@@ -28,7 +28,7 @@ const SignedInMenu = () => {
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
+        {/* <MenuItem onClick={handleClose}>Profile</MenuItem> */}
         <MenuItem onClick={handleClose} component={Link} to='/orders'>
           My orders
         </MenuItem>

@@ -3,12 +3,12 @@ import { useEffect } from 'react';
 import CheckboxButtons from '../../app/components/CheckboxButtons';
 import PaginationApp from '../../app/components/PaginationApp';
 import RadioButtonGroup from '../../app/components/RadioButtonGroup';
+import useProducts from '../../app/hook/useProducts';
 import LoadingComponent from '../../app/layout/LoadingComponent';
 import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
 import {
   fetchFiltersAsync,
   fetchProductListAsync,
-  productsSelector,
   setPageNumber,
   setProductParams,
 } from './catalogSlice';
@@ -23,15 +23,16 @@ const sortOptions = [
 
 const Catalog = () => {
   const dispatch = useAppDispatch();
-  const productList = useAppSelector(productsSelector.selectAll);
   const {
+    productList,
     productsLoaded,
-    filtersLoaded,
+    productParams,
     brands,
     types,
-    productParams,
-    metaData,
-  } = useAppSelector((state) => state.catalog);
+    filtersLoaded,
+  } = useProducts();
+
+  const { metaData } = useAppSelector((state) => state.catalog);
 
   useEffect(() => {
     if (!productsLoaded) dispatch(fetchProductListAsync());

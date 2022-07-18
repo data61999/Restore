@@ -76,7 +76,7 @@ const ProductDetail = () => {
           <img
             src={product.pictureUrl}
             alt={product.name}
-            style={{ width: '100%' }}
+            style={{ width: '100%', maxHeight: 300, objectFit: 'contain' }}
           />
         </Grid>
         <Grid item xs={6}>
@@ -132,11 +132,16 @@ const ProductDetail = () => {
                 fullWidth
                 onClick={handleUpdateCart}
                 disabled={
+                  product.quantityInStock <= 0 ||
                   (quantity === 0 && !itemInBasket) ||
                   quantity === itemInBasket?.quantity
                 }
               >
-                {itemInBasket ? 'Update quantity' : 'Add to cart'}
+                {product.quantityInStock <= 0
+                  ? 'Out of stock'
+                  : itemInBasket
+                  ? 'Update quantity'
+                  : 'Add to cart'}
               </LoadingButton>
             </Grid>
           </Grid>

@@ -106,6 +106,7 @@ namespace API
             services.AddIdentityCore<User>(opt =>
             {
                 opt.User.RequireUniqueEmail = true;
+                opt.Password.RequireNonAlphanumeric = false;
             })
                 .AddRoles<Role>()
                 .AddEntityFrameworkStores<StoreContext>();

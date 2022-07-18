@@ -95,13 +95,14 @@ namespace API.Controllers
                     FullName = createOrderDto.ShippingAddress.FullName,
                     Address1 = createOrderDto.ShippingAddress.Address1,
                     Address2 = createOrderDto.ShippingAddress.Address2,
-                    State = createOrderDto.ShippingAddress.State,
+                    //State = createOrderDto.ShippingAddress.State,
+                    PhoneNumber = createOrderDto.ShippingAddress.PhoneNumber,
                     City = createOrderDto.ShippingAddress.City,
-                    Zip = createOrderDto.ShippingAddress.Zip,
+                    //Zip = createOrderDto.ShippingAddress.Zip,
                     Country = createOrderDto.ShippingAddress.Country,
                 };
                 user.Address = address;
-                //_context.Update(user);
+                _context.Update(user);
             }
 
             var result = await _context.SaveChangesAsync() > 0;

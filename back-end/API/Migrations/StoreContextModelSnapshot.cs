@@ -176,14 +176,14 @@ namespace API.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "ab4cb12b-071c-4ec3-8a77-26b7e553ae78",
+                            ConcurrencyStamp = "5e4ef499-ccfe-46e2-aeb3-b95735320523",
                             Name = "Member",
                             NormalizedName = "MEMBER"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "2a976d6f-2cf7-45e6-b833-fce3dda58f91",
+                            ConcurrencyStamp = "b30a97f2-54f7-421d-8f68-6464b4b256d8",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -275,10 +275,7 @@ namespace API.Migrations
                     b.Property<string>("FullName")
                         .HasColumnType("text");
 
-                    b.Property<string>("State")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Zip")
+                    b.Property<string>("PhoneNumber")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -430,10 +427,7 @@ namespace API.Migrations
                             b1.Property<string>("FullName")
                                 .HasColumnType("text");
 
-                            b1.Property<string>("State")
-                                .HasColumnType("text");
-
-                            b1.Property<string>("Zip")
+                            b1.Property<string>("PhoneNumber")
                                 .HasColumnType("text");
 
                             b1.HasKey("OrderId");

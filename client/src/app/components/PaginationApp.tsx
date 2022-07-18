@@ -8,6 +8,11 @@ interface Props {
 
 const PaginationApp = ({ metaData, onPageChange }: Props) => {
   const { totalCount, totalPages, currentPage, pageSize } = metaData;
+
+  const handleChangePageNumber = (page: number) => {
+    onPageChange(page);
+  };
+
   return (
     <Box display='flex' justifyContent='space-between' alignItems='center'>
       <Typography>
@@ -22,7 +27,7 @@ const PaginationApp = ({ metaData, onPageChange }: Props) => {
         page={currentPage}
         color='secondary'
         size='large'
-        onChange={(e, page) => onPageChange(page)}
+        onChange={(e, page) => handleChangePageNumber(page)}
       />
     </Box>
   );

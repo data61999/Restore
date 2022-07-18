@@ -9,7 +9,7 @@ import {
   CardMedia,
   Typography,
 } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { Product } from '../../app/models/Product';
 import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
 import { addItemToBasketAsync } from '../basket/basketSlice';
@@ -20,6 +20,7 @@ interface Props {
 
 const ProductItem = ({ product }: Props) => {
   const { status } = useAppSelector((state) => state.basket);
+  const history = useHistory();
   const dispatch = useAppDispatch();
 
   return (
@@ -37,11 +38,12 @@ const ProductItem = ({ product }: Props) => {
         }}
       />
       <CardMedia
+        onClick={() => history.push(`/catalog/${product.id}`)}
         component='img'
-        height='140'
+        height='150'
         image={product.pictureUrl}
         alt={product.name}
-        sx={{ objectFit: 'contain', bgcolor: 'primary.light' }}
+        sx={{ objectFit: 'contain', bgcolor: '#d1e6fa' }}
       />
       <CardContent>
         <Typography gutterBottom variant='h5' component='div'>
@@ -53,15 +55,23 @@ const ProductItem = ({ product }: Props) => {
       </CardContent>
       <CardActions>
         <LoadingButton
+          disabled={product.quantityInStock <= 0}
+          variant='outlined'
+          sx={{ mr: 1 }}
           loading={status === `pendingAddItem${product.id}`}
           size='small'
           onClick={() =>
             dispatch(addItemToBasketAsync({ productId: product.id }))
           }
         >
-          Add to cart
+          {product.quantityInStock <= 0 ? 'Out of stock' : 'Add to cart'}
         </LoadingButton>
-        <Button size='small' component={Link} to={`/catalog/${product.id}`}>
+        <Button
+          variant='outlined'
+          size='small'
+          component={Link}
+          to={`/catalog/${product.id}`}
+        >
           View
         </Button>
       </CardActions>

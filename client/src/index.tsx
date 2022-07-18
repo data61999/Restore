@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Router } from 'react-router-dom';
+import { store } from './app/store/configureStore';
 import App from './app/layout/App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserHistory } from 'history';
 import { Provider } from 'react-redux';
-import { store } from './app/store/configureStore';
 import { fetchProductListAsync } from './features/catalog/catalogSlice';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export const history = createBrowserHistory();
 

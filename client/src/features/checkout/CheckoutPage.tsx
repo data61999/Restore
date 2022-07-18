@@ -10,7 +10,6 @@ import {
 import { useEffect, useState } from 'react';
 import { FieldValues, FormProvider, useForm } from 'react-hook-form';
 import AddressForm from './AddressForm';
-import PaymentForm from './PaymentForm';
 import Review from './Review';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { validationSchema } from './checkoutValidation';
@@ -19,7 +18,8 @@ import agent from '../../app/api/agent';
 import { clearBasket } from '../basket/basketSlice';
 import { LoadingButton } from '@mui/lab';
 
-const steps = ['Shipping address', 'Review your order', 'Payment details'];
+const steps = ['Shipping address', 'Review your order'];
+// const steps = ['Shipping address', 'Review your order', 'Payment details'];
 
 function getStepContent(step: number) {
   switch (step) {
@@ -27,8 +27,8 @@ function getStepContent(step: number) {
       return <AddressForm />;
     case 1:
       return <Review />;
-    case 2:
-      return <PaymentForm />;
+    // case 2:
+    //   return <PaymentForm />;
     default:
       throw new Error('Unknown step');
   }
@@ -60,6 +60,7 @@ export default function CheckoutPage() {
   }, [methods]);
 
   const handleNext = async (data: FieldValues) => {
+    console.log(data);
     const { nameOnCard, saveAddress, ...shippingAddress } = data;
 
     if (activeStep === steps.length - 1) {
@@ -95,6 +96,7 @@ export default function CheckoutPage() {
         <Typography component='h1' variant='h4' align='center'>
           Checkout
         </Typography>
+
         <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
           {steps.map((label) => (
             <Step key={label}>
@@ -102,6 +104,7 @@ export default function CheckoutPage() {
             </Step>
           ))}
         </Stepper>
+
         <>
           {activeStep === steps.length ? (
             <>

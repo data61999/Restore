@@ -80,7 +80,7 @@ export default function Register() {
           label='Email'
           autoComplete='email'
           {...register('email', {
-            required: 'Username is requied',
+            required: 'Email is requied',
             pattern: {
               value: /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/,
               message: 'Not a valid email',
@@ -99,9 +99,9 @@ export default function Register() {
           {...register('password', {
             required: 'Password is requied',
             pattern: {
-              value:
-                /(?=^.{6,10}$)(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&amp;*()_+}{&quot;:;'?/&gt;.&lt;,])(?!.*\s).*$/,
-              message: 'Password does not meet complexity requiments',
+              value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{4,20}$/,
+              message:
+                'Password does not meet complexity requiments (at least 6 characters, one uppercase, one lowercase character)',
             },
           })}
           error={!!errors.password}

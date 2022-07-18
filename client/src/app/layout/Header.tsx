@@ -22,7 +22,7 @@ interface Props {
 const midLinks = [
   { title: 'catalog', path: '/catalog' },
   { title: 'about', path: '/about' },
-  { title: 'contact', path: '/contact' },
+  // { title: 'contact', path: '/contact' },
 ];
 
 const rightLinks = [
@@ -49,7 +49,7 @@ const Header = ({ darkMode, handleThemeChange }: Props) => {
     basket?.items.reduce((sum, item) => (sum += item.quantity), 0) || 0;
 
   return (
-    <AppBar position='static' sx={{ mb: 4 }}>
+    <AppBar position='static'>
       <Toolbar
         sx={{
           display: 'flex',
@@ -75,6 +75,12 @@ const Header = ({ darkMode, handleThemeChange }: Props) => {
               {title.toUpperCase()}
             </ListItem>
           ))}
+
+          {user && user.roles?.includes('Admin') && (
+            <ListItem component={NavLink} to={'/inventory'} sx={navLinkStyle}>
+              INVENTORY
+            </ListItem>
+          )}
         </List>
 
         <Box display='flex' alignItems='center'>
