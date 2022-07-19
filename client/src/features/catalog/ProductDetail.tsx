@@ -75,11 +75,7 @@ const ProductDetail = () => {
           <img
             src={product.pictureUrl}
             alt={product.name}
-<<<<<<< Updated upstream
-            style={{ width: '100%', maxHeight: 300, objectFit: 'contain' }}
-=======
             style={{ width: '450px', height: '450px', objectFit: 'contain' }}
->>>>>>> Stashed changes
           />
         </Grid>
         <Grid item xs={6}>
