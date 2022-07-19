@@ -76,7 +76,7 @@ const HomePage = () => {
           <Button
             variant='outlined'
             component={Link}
-            to='/catalog/2'
+            to='/catalog/26'
             sx={{ mt: 1 }}
           >
             Shop

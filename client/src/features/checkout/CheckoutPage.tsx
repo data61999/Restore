@@ -17,6 +17,7 @@ import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
 import agent from '../../app/api/agent';
 import { clearBasket } from '../basket/basketSlice';
 import { LoadingButton } from '@mui/lab';
+import { resetProductParams } from '../catalog/catalogSlice';
 
 const steps = ['Shipping address', 'Review your order'];
 
@@ -74,6 +75,7 @@ export default function CheckoutPage() {
         });
         setOrderNumber(orderNum);
         dispatch(clearBasket());
+        dispatch(resetProductParams());
         setActiveStep(activeStep + 1);
         setLoading(false);
       } catch (error) {

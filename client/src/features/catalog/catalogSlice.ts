@@ -109,7 +109,6 @@ export const catalogSlice = createSlice({
     resetProductParams: (state) => {
       state.productsLoaded = false;
       state.productParams = initParams();
-      state.productsLoaded = false;
     },
     setMetaData: (state, action) => {
       state.metaData = action.payload;

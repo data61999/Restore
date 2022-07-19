@@ -68,28 +68,16 @@ const ProductForm = ({ product, cancelEdit }: Props) => {
             <AppTextInput control={control} name='name' label='Product name' />
           </Grid>
           <Grid item xs={12} sm={6}>
-            {/* <AppSelectList
+            <AppSelectList
               items={brands}
-              control={control}
-              name='brand'
-              label='Brand'
-            /> */}
-            <AppTextInput
-              type='text'
               control={control}
               name='brand'
               label='Brand'
             />
           </Grid>
           <Grid item xs={12} sm={6}>
-            {/* <AppSelectList
+            <AppSelectList
               items={types}
-              control={control}
-              name='type'
-              label='Type'
-            /> */}
-            <AppTextInput
-              type='text'
               control={control}
               name='type'
               label='Type'
