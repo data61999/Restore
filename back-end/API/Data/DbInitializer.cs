@@ -39,200 +39,203 @@ namespace API.Data
             {
                  new Product
                 {
-                    Name = "Angular Speedster Board 2000",
+                    Name = "Adidas Green Shark Hoodie",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 20000,
-                    PictureUrl = "/images/products/sb-ang1.png",
-                    Brand = "Angular",
-                    Type = "Boards",
+                    Price = 10000,
+                    PictureUrl = "/images/products/adidas_green_shark_hoodie.png",
+                    Brand = "Adidas",
+                    Type = "Hoodie",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Green Angular Board 3000",
-                    Description = "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-                    Price = 15000,
-                    PictureUrl = "/images/products/sb-ang2.png",
-                    Brand = "Angular",
-                    Type = "Boards",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Core Board Speed Rush 3",
+                    Name = "Adidas RnM Hoodie",
                     Description =
-                        "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 18000,
-                    PictureUrl = "/images/products/sb-core1.png",
-                    Brand = "NetCore",
-                    Type = "Boards",
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 5900,
+                    PictureUrl = "/images/products/adidas_RnM_hodie.png",
+                    Brand = "Adidas",
+                    Type = "Hoodie",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Net Core Super Board",
+                    Name = "Nike NBA Hoodie",
                     Description =
-                        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 30000,
-                    PictureUrl = "/images/products/sb-core2.png",
-                    Brand = "NetCore",
-                    Type = "Boards",
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 12100,
+                    PictureUrl = "/images/products/nike_nba_hoodie.png",
+                    Brand = "Nike",
+                    Type = "Hoodie",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "React Board Super Whizzy Fast",
+                    Name = "Nike Rosario Club Hoodie",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 4999,
+                    PictureUrl = "/images/products/nike_Rosario_club_hoodie.png",
+                    Brand = "Adidas",
+                    Type = "Hoodie",
+                    QuantityInStock = 100
+                },
+                 new Product
+                {
+                    Name = "Adidas Trainer Shoe",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 9999,
+                    PictureUrl = "/images/products/adidas_traner_shoe.png",
+                    Brand = "Adidas",
+                    Type = "Shoe",
+                    QuantityInStock = 0
+                },
+                 new Product
+                {
+                    Name = "Adidas Ultraboot Shoe",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 25000,
-                    PictureUrl = "/images/products/sb-react1.png",
-                    Brand = "React",
-                    Type = "Boards",
+                    PictureUrl = "/images/products/adidas_ultraboost.png",
+                    Brand = "Adidas",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Typescript Entry Board",
+                    Name = "Adidas Zapatilass Shoe",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 12000,
-                    PictureUrl = "/images/products/sb-ts1.png",
-                    Brand = "TypeScript",
-                    Type = "Boards",
+                    Price = 10000,
+                    PictureUrl = "/images/products/adidas_zapatilass_shoe.png",
+                    Brand = "Adidas",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Core Blue Hat",
+                    Name = "Nike Black Apl Shoe",
                     Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1000,
-                    PictureUrl = "/images/products/hat-core1.png",
-                    Brand = "NetCore",
-                    Type = "Hats",
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 12299,
+                    PictureUrl = "/images/products/nike_back_apl_shoe.png",
+                    Brand = "Nike",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Green React Woolen Hat",
+                    Name = "Nike Golf Shoe",
                     Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 8000,
-                    PictureUrl = "/images/products/hat-react1.png",
-                    Brand = "React",
-                    Type = "Hats",
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 9999,
+                    PictureUrl = "/images/products/nike_golf_shoes.png",
+                    Brand = "Nike",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Purple React Woolen Hat",
-                    Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1500,
-                    PictureUrl = "/images/products/hat-react2.png",
-                    Brand = "React",
-                    Type = "Hats",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Blue Code Gloves",
-                    Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1800,
-                    PictureUrl = "/images/products/glove-code1.png",
-                    Brand = "VS Code",
-                    Type = "Gloves",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Green Code Gloves",
-                    Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1500,
-                    PictureUrl = "/images/products/glove-code2.png",
-                    Brand = "VS Code",
-                    Type = "Gloves",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Purple React Gloves",
-                    Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1600,
-                    PictureUrl = "/images/products/glove-react1.png",
-                    Brand = "React",
-                    Type = "Gloves",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Green React Gloves",
-                    Description =
-                        "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1400,
-                    PictureUrl = "/images/products/glove-react2.png",
-                    Brand = "React",
-                    Type = "Gloves",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Redis Red Boots",
-                    Description =
-                        "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 25000,
-                    PictureUrl = "/images/products/boot-redis1.png",
-                    Brand = "Redis",
-                    Type = "Boots",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Core Red Boots",
+                    Name = "Puma running Shoe",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 18999,
-                    PictureUrl = "/images/products/boot-core2.png",
-                    Brand = "NetCore",
-                    Type = "Boots",
+                    PictureUrl = "/images/products/puma_running_shoe.png",
+                    Brand = "Puma",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
-                new Product
+                  new Product
                 {
-                    Name = "Core Purple Boots",
+                    Name = "Nike Aerobill Hat",
                     Description =
-                        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 19999,
-                    PictureUrl = "/images/products/boot-core1.png",
-                    Brand = "NetCore",
-                    Type = "Boots",
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 1000,
+                    PictureUrl = "/images/products/nike_aerobill_hat.png",
+                    Brand = "Nike",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
-                new Product
+                 new Product
                 {
-                    Name = "Angular Purple Boots",
-                    Description = "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-                    Price = 15000,
-                    PictureUrl = "/images/products/boot-ang2.png",
-                    Brand = "Angular",
-                    Type = "Boots",
-                    QuantityInStock = 100
-                },
-                new Product
-                {
-                    Name = "Angular Blue Boots",
+                    Name = "Nike Baseball Hat",
                     Description =
-                        "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 18000,
-                    PictureUrl = "/images/products/boot-ang1.png",
-                    Brand = "Angular",
-                    Type = "Boots",
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 1999,
+                    PictureUrl = "/images/products/nike_baseball_hat.png",
+                    Brand = "Nike",
+                    Type = "Shoe",
                     QuantityInStock = 100
                 },
+                 new Product
+                {
+                    Name = "Nike Nadal Hat",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 2500,
+                    PictureUrl = "/images/products/nike_nadal_hat.png",
+                    Brand = "Nike",
+                    Type = "Shoe",
+                    QuantityInStock = 100
+                },
+                 new Product
+                {
+                    Name = "Nike JDI T Shirt",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 2100,
+                    PictureUrl = "/images/products/nike_just_do_it_T_Shirt.png",
+                    Brand = "Nike",
+                    Type = "T-Shirt",
+                    QuantityInStock = 100
+                },
+                 new Product
+                {
+                    Name = "Nike Roll Tide T Shirt",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 4999,
+                    PictureUrl = "/images/products/nike_roll_tide_tshirt.png",
+                    Brand = "Nike",
+                    Type = "T-Shirt",
+                    QuantityInStock = 100
+                },
+                 new Product
+                {
+                    Name = "Nike Tennis T Shirt",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 2399,
+                    PictureUrl = "/images/products/nike_tennis_tshirt.png",
+                    Brand = "Nike",
+                    Type = "T-Shirt",
+                    QuantityInStock = 100
+                },
+                 new Product
+                {
+                    Name = "Nike Linx T Shirt",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 1900,
+                    PictureUrl = "/images/products/nike_linx_tsirt.png",
+                    Brand = "Nike",
+                    Type = "T-Shirt",
+                    QuantityInStock = 100
+                },
+                 new Product
+                {
+                    Name = "Nike Linx T Pant",
+                    Description =
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+                    Price = 3500,
+                    PictureUrl = "/images/products/nike_strike_pant.png",
+                    Brand = "Nike",
+                    Type = "Pant",
+                    QuantityInStock = 100
+                },
+                
             };
 
             foreach (var product in products)
