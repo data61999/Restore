@@ -9,7 +9,11 @@ import AboutPage from '../../features/about/AboutPage';
 import { fetchCurrentUserAsync } from '../../features/account/accountSlice';
 import Login from '../../features/account/Login';
 import Register from '../../features/account/Register';
+<<<<<<< Updated upstream
 import InventoryPage from '../../features/admin/inventory/InventoryPage';
+=======
+import Inventory from '../../features/admin/Inventory';
+>>>>>>> Stashed changes
 import BasketPage from '../../features/basket/BasketPage';
 import { fetchBasketAsync } from '../../features/basket/basketSlice';
 import Catalog from '../../features/catalog/Catalog';
@@ -62,6 +66,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+<<<<<<< Updated upstream
       <Box minHeight='100vh'>
         <ToastContainer
           position='bottom-right'
@@ -69,6 +74,11 @@ function App() {
           theme='colored'
         />
         <CssBaseline />
+=======
+      <ToastContainer position='bottom-right' hideProgressBar theme='colored' />
+      <CssBaseline />
+      <Box minHeight='100vh'>
+>>>>>>> Stashed changes
         <Header darkMode={darkMode} handleThemeChange={handleThemeChange} />
         <Route exact path='/' component={HomePage} />
         <Route
@@ -76,7 +86,10 @@ function App() {
           render={() => (
             <Container sx={{ mt: 4 }}>
               <Switch>
+<<<<<<< Updated upstream
                 <Route exact path='/' component={HomePage} />
+=======
+>>>>>>> Stashed changes
                 <Route exact path='/catalog' component={Catalog} />
                 <Route path='/catalog/:id' component={ProductDetail} />
                 <Route path='/about' component={AboutPage} />
@@ -86,9 +99,15 @@ function App() {
                 <PrivateRoute path='/checkout' component={CheckoutPage} />
                 <PrivateRoute path='/orders' component={Orders} />
                 <PrivateRoute
+<<<<<<< Updated upstream
                   path='/inventory'
                   roles={['Admin']}
                   component={InventoryPage}
+=======
+                  roles={['Admin']}
+                  path='/inventory'
+                  component={Inventory}
+>>>>>>> Stashed changes
                 />
                 <Route path='/login' component={Login} />
                 <Route path='/register' component={Register} />

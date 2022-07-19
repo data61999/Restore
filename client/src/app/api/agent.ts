@@ -10,7 +10,7 @@ axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
 axios.defaults.withCredentials = true;
 
-const requestBody = (response: AxiosResponse) => response.data;
+const responseBody = (response: AxiosResponse) => response.data;
 
 axios.interceptors.request.use((config) => {
   const token = store.getState().account.user?.token;
@@ -68,6 +68,7 @@ axios.interceptors.response.use(
 
 const request = {
   get: (url: string, params?: URLSearchParams) =>
+<<<<<<< Updated upstream
     axios.get(url, { params }).then(requestBody),
   post: (url: string, body: {}) => axios.post(url, body).then(requestBody),
   put: (url: string, body: {}) => axios.put(url, body).then(requestBody),
@@ -84,6 +85,24 @@ const request = {
         headers: { 'Content-type': 'multipart/formData' },
       })
       .then(requestBody),
+=======
+    axios.get(url, { params }).then(responseBody),
+  post: (url: string, body: {}) => axios.post(url, body).then(responseBody),
+  put: (url: string, body: {}) => axios.put(url, body).then(responseBody),
+  delete: (url: string) => axios.delete(url).then(responseBody),
+  postForm: (url: string, data: FormData) =>
+    axios
+      .post(url, data, {
+        headers: { 'Content-type': 'multipart/form-data' },
+      })
+      .then(responseBody),
+  putForm: (url: string, data: FormData) =>
+    axios
+      .put(url, data, {
+        headers: { 'Content-type': 'multipart/form-data' },
+      })
+      .then(responseBody),
+>>>>>>> Stashed changes
 };
 
 const Catalog = {
@@ -91,6 +110,7 @@ const Catalog = {
   list: (params: URLSearchParams) => request.get('products', params),
   detail: (id: number) => request.get(`products/${id}`),
   filters: () => request.get('products/filters'),
+  homepageList: () => request.get('Products?OrderBy=priceDesc&PageSize=4'),
 };
 
 const TestError = {
@@ -110,16 +130,32 @@ const Basket = {
 };
 
 const Account = {
-  login: (value: any) => request.post('/account/login', value),
-  register: (value: any) => request.post('/account/register', value),
-  getCurrentUser: () => request.get('/account/currentUser'),
-  getUserAddress: () => request.get('/account/getUserAddress'),
+  login: (value: any) => request.post('account/login', value),
+  register: (value: any) => request.post('account/register', value),
+  getCurrentUser: () => request.get('account/currentUser'),
+  getUserAddress: () => request.get('account/getUserAddress'),
 };
 
 const Orders = {
-  list: () => request.get('/orders'),
-  fetch: (id: number) => request.get(`/orders/${id}`),
-  create: (values: any) => request.post('/orders', values),
+  list: () => request.get('orders'),
+  fetch: (id: number) => request.get(`orders/${id}`),
+  create: (values: any) => request.post('orders', values),
+};
+
+const createDataForm = (item: any) => {
+  let formData = new FormData();
+  for (const key in item) {
+    formData.append(key, item[key]);
+  }
+  return formData;
+};
+
+const Admin = {
+  createProduct: (product: any) =>
+    request.postForm('products', createDataForm(product)),
+  updateProduct: (product: any) =>
+    request.putForm('products', createDataForm(product)),
+  deleteProduct: (id: number) => request.delete(`products?id=${id}`),
 };
 
 const createFormData = (item: any) => {

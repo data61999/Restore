@@ -15,7 +15,7 @@ interface Props {
 const RadioButtonGroup = ({ options, selectedValue, onChange }: Props) => {
   return (
     <FormControl>
-      <FormLabel id='demo-radio-buttons-group-label'></FormLabel>
+      <FormLabel id='demo-radio-buttons-group-label'>Sort by</FormLabel>
       <RadioGroup value={selectedValue} onChange={onChange}>
         {options.map(({ value, label }) => (
           <FormControlLabel

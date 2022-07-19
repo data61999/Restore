@@ -80,8 +80,7 @@ export const accountSlice = createSlice({
     });
 
     builder.addCase(signInAsync.rejected, (state, action) => {
-      const error = action.payload;
-      console.log(error);
+      throw action.payload;
     });
 
     builder.addMatcher(
