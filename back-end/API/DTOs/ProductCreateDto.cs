@@ -8,10 +8,6 @@ namespace API.DTOs
     {
         [Required]
         public string Name { get; set; }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
         public string Description { get; set; }
 
         [Required]

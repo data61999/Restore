@@ -68,24 +68,6 @@ axios.interceptors.response.use(
 
 const request = {
   get: (url: string, params?: URLSearchParams) =>
-<<<<<<< Updated upstream
-    axios.get(url, { params }).then(requestBody),
-  post: (url: string, body: {}) => axios.post(url, body).then(requestBody),
-  put: (url: string, body: {}) => axios.put(url, body).then(requestBody),
-  delete: (url: string) => axios.delete(url).then(requestBody),
-  postForm: (url: string, data: FormData) =>
-    axios
-      .post(url, data, {
-        headers: { 'Content-type': 'multipart/formData' },
-      })
-      .then(requestBody),
-  putForm: (url: string, data: FormData) =>
-    axios
-      .put(url, data, {
-        headers: { 'Content-type': 'multipart/formData' },
-      })
-      .then(requestBody),
-=======
     axios.get(url, { params }).then(responseBody),
   post: (url: string, body: {}) => axios.post(url, body).then(responseBody),
   put: (url: string, body: {}) => axios.put(url, body).then(responseBody),
@@ -102,7 +84,6 @@ const request = {
         headers: { 'Content-type': 'multipart/form-data' },
       })
       .then(responseBody),
->>>>>>> Stashed changes
 };
 
 const Catalog = {
@@ -142,22 +123,6 @@ const Orders = {
   create: (values: any) => request.post('orders', values),
 };
 
-const createDataForm = (item: any) => {
-  let formData = new FormData();
-  for (const key in item) {
-    formData.append(key, item[key]);
-  }
-  return formData;
-};
-
-const Admin = {
-  createProduct: (product: any) =>
-    request.postForm('products', createDataForm(product)),
-  updateProduct: (product: any) =>
-    request.putForm('products', createDataForm(product)),
-  deleteProduct: (id: number) => request.delete(`products?id=${id}`),
-};
-
 const createFormData = (item: any) => {
   let formData = new FormData();
 
@@ -170,9 +135,9 @@ const createFormData = (item: any) => {
 
 const Admin = {
   createProduct: (data: any) =>
-    request.postForm('/products', createFormData(data)),
+    request.postForm('products', createFormData(data)),
   updateProduct: (data: any) =>
-    request.putForm('/products', createFormData(data)),
+    request.putForm('products', createFormData(data)),
   deleteProduct: (id: number) => request.delete(`/products?id=${id}`),
 };
 

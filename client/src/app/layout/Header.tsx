@@ -75,10 +75,6 @@ const Header = ({ darkMode, handleThemeChange }: Props) => {
               {title.toUpperCase()}
             </ListItem>
           ))}
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
           {user && user.roles?.includes('Admin') && (
             <ListItem component={NavLink} to={'/inventory'} sx={navLinkStyle}>
               INVENTORY

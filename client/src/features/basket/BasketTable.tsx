@@ -48,15 +48,6 @@ const BasketTable = ({ items, isBasket = true }: Props) => {
                     src={item.pictureUrl}
                     alt={item.name}
                     style={{
-<<<<<<< Updated upstream
-                      objectFit: 'contain',
-                      height: 50,
-                      marginRight: 20,
-                      minWidth: 100,
-                    }}
-                  />
-                  {item.name}
-=======
                       height: 50,
                       marginRight: 20,
                       maxWidth: 70,
@@ -65,7 +56,6 @@ const BasketTable = ({ items, isBasket = true }: Props) => {
                     }}
                   />
                   <span>{item.name}</span>
->>>>>>> Stashed changes
                 </Box>
               </TableCell>
 

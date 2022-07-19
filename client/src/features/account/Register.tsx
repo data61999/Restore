@@ -99,15 +99,9 @@ export default function Register() {
           {...register('password', {
             required: 'Password is requied',
             pattern: {
-<<<<<<< Updated upstream
-              value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{4,20}$/,
-              message:
-                'Password does not meet complexity requiments (at least 6 characters, one uppercase, one lowercase character)',
-=======
               value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,20}$/,
               message:
                 'Password does not meet complexity requiments (at least 6 characters, one uppercase, one lowercase, one digit)',
->>>>>>> Stashed changes
             },
           })}
           error={!!errors.password}

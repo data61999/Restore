@@ -43,11 +43,7 @@ const ProductItem = ({ product }: Props) => {
         height='150'
         image={product.pictureUrl}
         alt={product.name}
-<<<<<<< Updated upstream
-        sx={{ objectFit: 'contain', bgcolor: '#d1e6fa' }}
-=======
         sx={{ objectFit: 'contain', bgcolor: '#b6dcfb' }}
->>>>>>> Stashed changes
       />
       <CardContent>
         <Typography gutterBottom variant='h5' component='div'>
@@ -59,14 +55,8 @@ const ProductItem = ({ product }: Props) => {
       </CardContent>
       <CardActions>
         <LoadingButton
-<<<<<<< Updated upstream
-          disabled={product.quantityInStock <= 0}
-          variant='outlined'
-          sx={{ mr: 1 }}
-=======
           variant='outlined'
           disabled={product.quantityInStock <= 0}
->>>>>>> Stashed changes
           loading={status === `pendingAddItem${product.id}`}
           size='small'
           onClick={() =>

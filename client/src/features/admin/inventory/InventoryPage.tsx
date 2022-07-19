@@ -23,7 +23,7 @@ import {
 } from '../../../app/store/configureStore';
 import { currencyFormat } from '../../../app/uti/utilities';
 import {
-  deleteProduct,
+  removeProduct,
   fetchProductListAsync,
   resetProductParams,
   setPageNumber,
@@ -66,7 +66,7 @@ const InventoryPage = () => {
     setTarget(id);
 
     agent.Admin.deleteProduct(id)
-      .then(() => dispatch(deleteProduct(id)))
+      .then(() => dispatch(removeProduct(id)))
       .catch((error) => console.log(error))
       .finally(() => setLoading(false));
   };

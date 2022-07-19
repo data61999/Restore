@@ -19,10 +19,6 @@ import { clearBasket } from '../basket/basketSlice';
 import { LoadingButton } from '@mui/lab';
 
 const steps = ['Shipping address', 'Review your order'];
-<<<<<<< Updated upstream
-// const steps = ['Shipping address', 'Review your order', 'Payment details'];
-=======
->>>>>>> Stashed changes
 
 function getStepContent(step: number) {
   switch (step) {

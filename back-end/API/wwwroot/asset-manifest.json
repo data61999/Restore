@@ -1,28 +1,7 @@
 {
   "files": {
-<<<<<<< Updated upstream
-    "main.js": "/static/js/main.fae282b3.chunk.js",
-    "main.js.map": "/static/js/main.fae282b3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.58b82650.js",
-    "runtime-main.js.map": "/static/js/runtime-main.58b82650.js.map",
-    "static/css/2.fb5f1946.chunk.css": "/static/css/2.fb5f1946.chunk.css",
-    "static/js/2.f94e798d.chunk.js": "/static/js/2.f94e798d.chunk.js",
-    "static/js/2.f94e798d.chunk.js.map": "/static/js/2.f94e798d.chunk.js.map",
-    "static/js/3.d20fed45.chunk.js": "/static/js/3.d20fed45.chunk.js",
-    "static/js/3.d20fed45.chunk.js.map": "/static/js/3.d20fed45.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.fb5f1946.chunk.css.map": "/static/css/2.fb5f1946.chunk.css.map",
-    "static/js/2.f94e798d.chunk.js.LICENSE.txt": "/static/js/2.f94e798d.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.58b82650.js",
-    "static/css/2.fb5f1946.chunk.css",
-    "static/js/2.f94e798d.chunk.js",
-    "static/js/main.fae282b3.chunk.js"
-=======
     "main.css": "/static/css/main.25baeefb.css",
-    "main.js": "/static/js/main.ba615075.js",
+    "main.js": "/static/js/main.a53a2aec.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -30,12 +9,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.25baeefb.css.map": "/static/css/main.25baeefb.css.map",
-    "main.ba615075.js.map": "/static/js/main.ba615075.js.map",
+    "main.a53a2aec.js.map": "/static/js/main.a53a2aec.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25baeefb.css",
-    "static/js/main.ba615075.js"
->>>>>>> Stashed changes
+    "static/js/main.a53a2aec.js"
   ]
 }
