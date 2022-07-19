@@ -109,6 +109,7 @@ export const catalogSlice = createSlice({
     resetProductParams: (state) => {
       state.productsLoaded = false;
       state.productParams = initParams();
+      state.productsLoaded = false;
     },
     setMetaData: (state, action) => {
       state.metaData = action.payload;
@@ -118,7 +119,11 @@ export const catalogSlice = createSlice({
       productsAdapter.upsertOne(state, action.payload);
       state.productsLoaded = false;
     },
+<<<<<<< Updated upstream
     deleteProduct: (state, action) => {
+=======
+    removeProduct: (state, action) => {
+>>>>>>> Stashed changes
       productsAdapter.removeOne(state, action.payload);
       state.productsLoaded = false;
     },
@@ -173,5 +178,9 @@ export const {
   setMetaData,
   setPageNumber,
   setProduct,
+<<<<<<< Updated upstream
   deleteProduct,
+=======
+  removeProduct,
+>>>>>>> Stashed changes
 } = catalogSlice.actions;

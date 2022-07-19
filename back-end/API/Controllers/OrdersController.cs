@@ -95,8 +95,13 @@ namespace API.Controllers
                     FullName = createOrderDto.ShippingAddress.FullName,
                     Address1 = createOrderDto.ShippingAddress.Address1,
                     Address2 = createOrderDto.ShippingAddress.Address2,
+<<<<<<< Updated upstream
                     //State = createOrderDto.ShippingAddress.State,
                     PhoneNumber = createOrderDto.ShippingAddress.PhoneNumber,
+=======
+                    PhoneNumber = createOrderDto.ShippingAddress.PhoneNumber,
+                    //State = createOrderDto.ShippingAddress.State,
+>>>>>>> Stashed changes
                     City = createOrderDto.ShippingAddress.City,
                     //Zip = createOrderDto.ShippingAddress.Zip,
                     Country = createOrderDto.ShippingAddress.Country,

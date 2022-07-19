@@ -3,15 +3,17 @@ using System;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace API.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    partial class StoreContextModelSnapshot : ModelSnapshot
+    [Migration("20220718124939_change_Address_Entity")]
+    partial class change_Address_Entity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -176,22 +178,14 @@ namespace API.Migrations
                         new
                         {
                             Id = 1,
-<<<<<<< Updated upstream
-                            ConcurrencyStamp = "5e4ef499-ccfe-46e2-aeb3-b95735320523",
-=======
                             ConcurrencyStamp = "22c579ee-6da5-4bf6-bba5-4827c56d6e6c",
->>>>>>> Stashed changes
                             Name = "Member",
                             NormalizedName = "MEMBER"
                         },
                         new
                         {
                             Id = 2,
-<<<<<<< Updated upstream
-                            ConcurrencyStamp = "b30a97f2-54f7-421d-8f68-6464b4b256d8",
-=======
                             ConcurrencyStamp = "c680fc02-d25f-4fdd-ba3c-a051f3722a29",
->>>>>>> Stashed changes
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });

@@ -54,7 +54,7 @@ export default function Register() {
           agent.Account.register(data)
             .then(() => {
               toast.success('Registration successful - you can loggin now');
-              setTimeout(() => history.push('/login'), 3000);
+              setTimeout(() => history.push('/login'), 2000);
             })
             .catch((errors) => handleErrors(errors))
         )}
@@ -99,9 +99,15 @@ export default function Register() {
           {...register('password', {
             required: 'Password is requied',
             pattern: {
+<<<<<<< Updated upstream
               value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{4,20}$/,
               message:
                 'Password does not meet complexity requiments (at least 6 characters, one uppercase, one lowercase character)',
+=======
+              value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,20}$/,
+              message:
+                'Password does not meet complexity requiments (at least 6 characters, one uppercase, one lowercase, one digit)',
+>>>>>>> Stashed changes
             },
           })}
           error={!!errors.password}

@@ -1,7 +1,12 @@
+<<<<<<< Updated upstream
 import { Avatar, Box, Button, Grid, Typography } from '@mui/material';
+=======
+import { Button, Grid } from '@mui/material';
+>>>>>>> Stashed changes
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { useAppSelector } from '../../app/store/configureStore';
+import BasketEmptyPage from './BasketEmptyPage';
 import BasketSummary from './BasketSummary';
 import BasketTable from './BasketTable';
 import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
@@ -11,6 +16,7 @@ const BasketPage = () => {
 
   // if (status) return <LoadingComponent message='basket loading...' />;
 
+<<<<<<< Updated upstream
   if (!basket || basket.items.length === 0)
     return (
       <Box display='flex' flexDirection='column' alignItems='center'>
@@ -35,6 +41,9 @@ const BasketPage = () => {
         </Button>
       </Box>
     );
+=======
+  if (!basket || basket.items.length === 0) return <BasketEmptyPage />;
+>>>>>>> Stashed changes
 
   return (
     <Fragment>

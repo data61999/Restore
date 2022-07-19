@@ -13,13 +13,16 @@ import AddressForm from './AddressForm';
 import Review from './Review';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { validationSchema } from './checkoutValidation';
-import { useAppDispatch } from '../../app/store/configureStore';
+import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
 import agent from '../../app/api/agent';
 import { clearBasket } from '../basket/basketSlice';
 import { LoadingButton } from '@mui/lab';
 
 const steps = ['Shipping address', 'Review your order'];
+<<<<<<< Updated upstream
 // const steps = ['Shipping address', 'Review your order', 'Payment details'];
+=======
+>>>>>>> Stashed changes
 
 function getStepContent(step: number) {
   switch (step) {
@@ -38,6 +41,7 @@ export default function CheckoutPage() {
   const [activeStep, setActiveStep] = useState(0);
   const [orderNumber, setOrderNumber] = useState(0);
   const [loading, setLoading] = useState(false);
+  const { basket } = useAppSelector((state) => state.basket);
   const dispatch = useAppDispatch();
 
   const currentValidationSchema = validationSchema[activeStep];
@@ -62,6 +66,8 @@ export default function CheckoutPage() {
   const handleNext = async (data: FieldValues) => {
     console.log(data);
     const { nameOnCard, saveAddress, ...shippingAddress } = data;
+
+    console.log(data);
 
     if (activeStep === steps.length - 1) {
       try {
@@ -129,7 +135,9 @@ export default function CheckoutPage() {
                   )}
                   <LoadingButton
                     loading={loading}
-                    disabled={!methods.formState.isValid}
+                    disabled={
+                      !methods.formState.isValid || basket?.items.length === 0
+                    }
                     variant='contained'
                     type='submit'
                     sx={{ mt: 3, ml: 1 }}
